@@ -44,7 +44,7 @@ torchrun --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nnodes=1 --nproc_per_
         --lr 1e-3 \
         --test_num_segment 5 \
         --test_num_crop 3 \
-        --epochs 5 \
+        --epochs 59 \
         --test_randomization \
         --dist_eval --enable_deepspeed \
         --pred_column ${COLUMN_NAME} 

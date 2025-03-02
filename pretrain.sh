@@ -62,7 +62,7 @@ torchrun --rdzv_backend=c10d --rdzv_endpoint=localhost:0 --nproc_per_node=${GPUS
     --opt_betas 0.9 0.95 \
     --warmup_epochs 1 \
     --save_ckpt_freq 20 \
-    --epochs 2 \
+    --epochs 800 \
     --log_dir ${OUTPUT_DIR} \
     --output_dir ${OUTPUT_DIR} \
     --enable_deepspeed 
